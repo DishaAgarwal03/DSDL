@@ -1,0 +1,57 @@
+$date
+	Thu Sep 22 09:35:03 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module one_tb $end
+$var wire 1 ! AltB $end
+$var wire 1 " AgtB $end
+$var wire 1 # AeqB $end
+$var reg 5 $ A [4:0] $end
+$var reg 5 % B [4:0] $end
+$scope module ex $end
+$var wire 5 & A [4:0] $end
+$var wire 5 ' B [4:0] $end
+$var wire 1 ( L $end
+$var wire 1 ) M $end
+$var reg 1 # AeqB $end
+$var reg 1 " AgtB $end
+$var reg 1 ! AltB $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0)
+0(
+b11 '
+b1 &
+b11 %
+b1 $
+0#
+0"
+1!
+$end
+#20
+1#
+0!
+1(
+b101 %
+b101 '
+b101 $
+b101 &
+#40
+1"
+1)
+0!
+0#
+0(
+b11 %
+b11 '
+b1101 $
+b1101 &
+#60
