@@ -9,7 +9,7 @@ module two(G, B);
 		B[N-1]=G[N-1];
 		for (i=N-2; i>=0; i=i-1)
 		begin
-			B[i] = G[i] + B[i+1];
+			B[i] = G[i] ^ B[i+1];
 		end
 	end
 endmodule
