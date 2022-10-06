@@ -49,9 +49,6 @@ module mux2to1(w0, w1, s, f);
 	
 	always @(w0 or w1 or s)
 	begin
-		if (s==1)
-			f=w1;
-		else
-			f=w0;
+		f = s? w1 : w0;
 	end
 endmodule
