@@ -14,7 +14,7 @@ end
 initial 
 begin
 	reset=0; set=1; #40;
-	reset=1; #320
+	reset=1; #320;
 	$display("Test complete");
 end
 endmodule
